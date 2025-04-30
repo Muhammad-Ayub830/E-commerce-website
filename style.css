@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+/* general css for whole document */
+nav ul li a{
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    margin: 10px 20px !important;
+}
+nav ul li{
+    display: inline;
+}
+.search-block{
+    background-color: #F0F0F0;
+    padding:10px 25px;
+    border-radius: 45px;
+    width: 400px
+}
+.search-block input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 0 10px;
+}
+.pop-ups i{
+    padding: 10px;
+    font-size: 20px;
+}
+@media screen and (max-width:1200px) {
+    #bars{
+        display: inline-block !important;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    ul{
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        top: 100% ;
+        left: 0;
+        text-align: center;
+        overflow: hidden;
+        transition: .5s;
+        background-color: #F0F0F0;
+    }
+    nav ul li{
+        display: block;
+        padding: 5px;
+    }
+}
+@media screen and (max-width:808px) {
+    #input{
+        display: block !important;
+        margin: auto;
+        cursor: pointer;
+    }
+    .search-block{
+        width: 0px;
+        background:transparent;
+    }
+    .search-block input{
+        display: none;
+    }
+   .pop-ups{
+    padding: 0 !important;
+   }
+   .search-block i{
+    font-size: 20px;
+    cursor: pointer;
+   }
+}
+/* nav section ended--------------------------------- */
+.hero{
+   background-color: #F0EEED;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.content h1{
+    font-size: 60px;
+    color: black !important;
+}
+.content p{
+    color:#000000 !important;
+}
+.box-1 .num{
+    font-weight: bold;
+    color: #000000;
+}
+.box-1 .cap{
+    font-weight: bold;
+    color: #242323de;
+}
+@media screen and (max-width:1220px) {
+    .dd{
+        display: block !important;
+    }
+    .img img{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:770px) {
+    .box-1 .cap{
+        font-weight: bold;
+        color: #242323de;
+        font-size: 38px !important;
+    }
+    .box-1 .num{
+        font-weight: bold;
+        color: #000000;
+        font-size: 68px !important;
+    }
+   .box-1{
+    text-align: center;
+    padding: 20px;
+    margin: 0 !important;
+   }
+}
+@media screen and (max-width:500px) {
+    .content h1{
+        font-size: 40px;
+        color: black !important;
+    }
+    .btns a{
+        padding: 10px 30px !important;
+    }
+}
+/* hero section ends------------------ */
+.brand-names{
+    margin-bottom: 70px;
+    background-color: #000000;
+}
+.framee{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+
+}
+.name{
+    text-align: center;
+    padding: 25px;
+}
+/* brand-names-section-ends------------ */
