@@ -99,7 +99,7 @@ nav ul li{
     .dd{
         display: block !important;
     }
-    .img img{
+    .img1 img{
         width: 100% !important;
     }
 }
@@ -144,3 +144,50 @@ nav ul li{
     padding: 25px;
 }
 /* brand-names-section-ends------------ */
+.new-arrivals{
+    margin-bottom: 60px ;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(295px,1fr));
+    gap: 20px;
+}
+.product-photo{
+    background-color: #F0EEED;
+}
+.discount-amount{
+    text-decoration-line: line-through !important;
+
+}
+.link-to-repective-page p{
+    cursor: pointer;
+}
+/* new arrival section ends--------------- */
+.dressing-style{
+    background-color: #F0F0F0;
+    border-radius: 58px;
+    padding: 70px;
+    margin-bottom: 100px;
+}
+.dressing-style h1{
+    font-size: 60px;
+}
+.dressing-style span{
+    top: 10%;
+    left: 10%;
+}
+.img{
+    height: 350px;
+}
+/* @media screen and (max-width:700px) {
+    .img{
+        height: 250px;
+    }
+    .dressing-style{
+        background-color: #F0F0F0;
+        border-radius: 58px;
+        padding: 30px;
+        margin-bottom: 100px;
+    }
+} */
+/* dessing style section ends--------------- */
