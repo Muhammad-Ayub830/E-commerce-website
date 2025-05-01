@@ -167,7 +167,7 @@ nav ul li{
     background-color: #F0F0F0;
     border-radius: 58px;
     padding: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .dressing-style h1{
     font-size: 60px;
@@ -179,7 +179,7 @@ nav ul li{
 .img{
     height: 350px;
 }
-/* @media screen and (max-width:700px) {
+@media screen and (max-width:700px) {
     .img{
         height: 250px;
     }
@@ -189,5 +189,5 @@ nav ul li{
         padding: 30px;
         margin-bottom: 100px;
     }
-} */
+}
 /* dessing style section ends--------------- */

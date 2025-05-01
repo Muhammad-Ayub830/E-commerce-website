@@ -23,3 +23,4 @@ search.addEventListener("click",function(){
           list.style.borderBottom = ""
     }
 })
+// code for nav-bar toggling is coded--------------------
