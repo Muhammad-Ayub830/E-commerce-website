@@ -78,75 +78,51 @@ nav ul li{
    }
 }
 /* nav section ended--------------------------------- */
-.hero{
-   background-color: #F0EEED;
-    width: 100%;
-    background-repeat: no-repeat;
-}
-.content h1{
-    font-size: 60px;
-    color: black !important;
-}
-.content p{
-    color:#000000 !important;
-}
-.box-1 .num{
-    font-weight: bold;
-    color: #000000;
-}
-.box-1 .cap{
-    font-weight: bold;
-    color: #242323de;
-}
-@media screen and (max-width:1220px) {
-    .dd{
-        display: block !important;
-    }
-    .img1 img{
-        width: 100% !important;
-    }
-}
-@media screen and (max-width:770px) {
-    .box-1 .cap{
-        font-weight: bold;
-        color: #242323de;
-        font-size: 38px !important;
-    }
-    .box-1 .num{
-        font-weight: bold;
-        color: #000000;
-        font-size: 68px !important;
-    }
-   .box-1{
-    text-align: center;
+.product-slides,.product-about{
+    flex-basis: 48%;
     padding: 20px;
-    margin: 0 !important;
-   }
 }
-@media screen and (max-width:500px) {
-    .content h1{
-        font-size: 40px;
-        color: black !important;
-    }
-    .btns a{
-        padding: 10px 30px !important;
-    }
+.img1{
+    width: 152px;
+    height: 168px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
-/* hero section ends------------------ */
-.brand-names{
-    margin-bottom: 70px;
+.img2{
+    width:444px;
+    height: 530px;
+    cursor: pointer;
+}
+.color-options label{
+    cursor: pointer;
+}
+.active-color{
     background-color: #000000;
+    color: #F0EEED;
+    font-weight: 300;
+    cursor: pointer;
 }
-.framee{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-
+.add-to-cart{
+    cursor: pointer;
 }
-.name{
-    text-align: center;
-    padding: 25px;
+.add-to-cart-btn {
+    width: 100%;
 }
-/* brand-names-section-ends------------ */
+@media screen and (max-width:768px) {
+    .img1{
+        width: 100%;
+        height: 168px;
+        margin: 10px;
+    } 
+    .img2{
+        width:100%;
+        height: 530px;
+    }
+}
+/* displayed product section ends */
+.suggested-products{
+    margin-bottom: 100px;
+}
 .new-arrivals{
     margin-bottom: 60px ;
 }
@@ -155,6 +131,9 @@ nav ul li{
     grid-template-columns: repeat(auto-fit,minmax(295px,1fr));
     gap: 20px;
 }
+.product{
+    cursor: pointer;
+}
 .product-photo{
     background-color: #F0EEED;
 }
@@ -162,83 +141,7 @@ nav ul li{
     text-decoration-line: line-through !important;
 
 }
-.link-to-repective-page p{
-    cursor: pointer;
-}
-/* new arrival section ends--------------- */
-.dressing-style{
-    background-color: #F0F0F0;
-    border-radius: 58px;
-    padding: 70px;
-    margin-bottom: 70px;
-}
-.dressing-style h1{
-    font-size: 60px;
-}
-.dressing-style span{
-    top: 10%;
-    left: 10%;
-}
-.img{
-    height: 350px;
-}
-@media screen and (max-width:700px) {
-    .img{
-        height: 250px;
-    }
-    .dressing-style{
-        background-color: #F0F0F0;
-        border-radius: 20px;
-        padding: 30px;
-        margin-bottom: 100px;
-    }
-}
-/* dessing style section ends--------------- */
-.customer-review {
-}
-.carousell{
-    margin-bottom: 100px;
-    transition: .5s;
-    overflow: hidden;
-    margin-left: -55px;
-}
-.carousell .card{
-    min-width: 360px;
-    max-width: 360px;
-}
-.controls{
-    right: 0%;
-    top: 10%;
-}
-.controls i{
-    font-size: 20px;
-    cursor: pointer;
-}
-#tik-symbol{
-    font-size: 10px !important;
-    padding: 5px;
-    margin-left: 10px;
-}
-.left-side-blur-effect{
-    top: 100%;
-    left: -7%;
-}
-.right-side-blur-effect{
-    top: 100%;
-    right: -90px;
-}
-.blureness {
-    z-index: 5;
-}
-@media screen and (max-width:500px) {
-    .carousell{
-        margin-left: 0px ;
-    }
-    .carousell .card{
-        min-width: 350px;
-    }
-}
-/* customer review section ends------------------------------ */
+/* suggested product section ends section ends--------------- */
 .footer{
     background-color: #F0F0F0;
     margin-top: 200px;
@@ -291,4 +194,4 @@ nav ul li{
     }
 }
 /* footer section ends */
-                              /* home page styling ends */
+                              /* Product detail section styling ends */
