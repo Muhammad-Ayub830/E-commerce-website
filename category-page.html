@@ -14,9 +14,9 @@
 </head>
 
 <body>
-<section class="wrapper">
-         <!-- front page begins -->
-         <section class="anouncement bg-dark " id="anouncement-section">
+    <section class="wrapper">
+        <!-- front page begins -->
+        <section class="anouncement bg-dark " id="anouncement-section">
             <div class="container text-center text-white p-2  d-flex align-items-center justify-content-between">
                 <div></div>
                 <p class="d-inline-block mb-0 ">Sign up and get 20% off to your first order . <a href=""
@@ -34,8 +34,8 @@
                     <ul class="mb-0" id="list">
                         <input type="text" id="input" placeholder="Search for products..."
                             style="display: none; background-color: #F0F0F0;border: 1px solid #333;outline: none; padding:10px 25px;border-radius: 45px; width: 300px">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="">On Sale <i class="fa-solid fa-caret-down"></i></a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">On Sale <i class="fa-solid fa-caret-down"></i></a></li>
                         <li><a href="">New Arrivals</a></li>
                         <li><a href="category-page.html">Catagory</a></li>
                     </ul>
@@ -53,6 +53,442 @@
             </nav>
         </section>
         <!-- nav section ended----------------------- -->
+        <section class="products-section container ">
+            <nav style="--bs-breadcrumb-divider: '>';" class="container mt-3" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#" class="text-secondary fw-bold">Home</a></li>
+                    <li class="breadcrumb-item active fw-bold" aria-current="page">Casual</li>
+                </ol>
+            </nav>
+            <div class="product-content  d-flex ">
+                <div class="filter-window rounded-4  card p-4 py-4  d-none d-lg-block" style="width: 360px;">
+                    <div class="filter-refrence d-flex align-items-center justify-content-between mb-4">
+                        <p class="mb-0 fw-bold" style="color: black;">Filters</p>
+                        <i class="fas fa-sliders-h equalizer"></i>
+                    </div>
+                    <hr>
+                    <div class="product-categories mb-4">
+                        <div class="product-style-name d-flex align-items-center justify-content-between mb-3">
+                            <p class="mb-0 fw-bold" style="color: #000">T-shirts</p>
+                            <i class="fa-solid fa-chevron-right" style="color: rgba(0, 0, 0, 0.6);"></i>
+                        </div>
+
+                        <div class="product-style-name d-flex align-items-center justify-content-between mb-3">
+                            <p class="mb-0 fw-bold" style="color: #000">Shorts</p>
+                            <i class="fa-solid fa-chevron-right" style="color: rgba(0, 0, 0, 0.6);"></i>
+                        </div>
+
+                        <div class="product-style-name d-flex align-items-center justify-content-between mb-3">
+                            <p class="mb-0 fw-bold" style="color: #000000c4">Shirts</p>
+                            <i class="fa-solid fa-chevron-right" style="color: rgba(0, 0, 0, 0.6);"></i>
+                        </div>
+
+                        <div class="product-style-name d-flex align-items-center justify-content-between mb-3">
+                            <p class="mb-0 fw-bold" style="color: #000000c4">Hoddie</p>
+                            <i class="fa-solid fa-chevron-right" style="color: rgba(0, 0, 0, 0.6);"></i>
+                        </div>
+
+                        <div class="product-style-name d-flex align-items-center justify-content-between mb-3">
+                            <p class="mb-0 fw-bold" style="color: #000000c4">Jeins</p>
+                            <i class="fa-solid fa-chevron-right" style="color: rgba(0, 0, 0, 0.6);"></i>
+                        </div>
+
+
+                    </div>
+                    <hr>
+                    <div class="product-price-range mb-4">
+                        <div class="product-style-name d-flex align-items-center justify-content-between mb-3">
+                            <p class="mb-0 fs-5 fw-bold" style="color: #000">Price</p>
+                            <i class="fa-solid fa-chevron-up" style="color: rgba(0, 0, 0, 0.6);"></i>
+                        </div>
+                        <div class="price-range-filter">
+                            <div id="price-slider"></div>
+                            <div class="price-display">
+                                <span id="min-price">$0</span> - <span id="max-price">$2000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="products-colors-segment mb-4">
+                        <div class="product-style-name d-flex align-items-center justify-content-between mb-3">
+                            <p class="mb-0 fs-5 fw-bold" style="color: #000">Colors</p>
+                            <i class="fa-solid fa-chevron-up" style="color: rgba(0, 0, 0, 0.6);"></i>
+                        </div>
+                        <div class="product-colors ">
+                            <button class="rounded-circle p-3 outline-none m-1"
+                                style="background-color: #000000;"></button>
+
+                            <button class="rounded-circle p-3 outline-none m-1"
+                                style="background-color: #F50606"></button>
+                            <button class="rounded-circle p-3 outline-none m-1"
+                                style="background-color: #F5DD06"></button>
+                            <button class="rounded-circle p-3 outline-none " style="background-color: #F57906"></button>
+                            <button class="rounded-circle p-3 outline-none m-1"
+                                style="background-color: #F57906"></button>
+                            <button class="rounded-circle p-3 outline-none m-1"
+                                style="background-color: #063AF5"></button>
+                            <button class="rounded-circle p-3 outline-none m-1"
+                                style="background-color: #7D06F5"></button>
+                            <button class="rounded-circle p-3 outline-none" style="background-color: #F506A4"></button>
+                            <button class="rounded-circle p-3 outline-none m-1"
+                                style="background-color: #FFFFFF"></button>
+                            <button class="rounded-circle p-3 outline-none m-1"
+                                style="background-color: #000000"></button>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="product-sizes mb-4">
+                        <div class="product-style-name d-flex align-items-center justify-content-between mb-3">
+                            <p class="mb-0 fs-5 fw-bold" style="color: #000">Size</p>
+                            <i class="fa-solid fa-chevron-up" style="color: rgba(0, 0, 0, 0.6);"></i>
+                        </div>
+                        <div class="product-sizes-btns">
+                            <label for="" class="fw-bold fs-6 rounded-pill px-3 py-2 me-2 mb-2"
+                                style="background-color: #F0F0F0;font-size: small;">XX-Small</label>
+                            <label for="" class="fw-bold fs-6 rounded-pill px-3 py-2 me-2 mb-2"
+                                style="background-color: #F0F0F0;">X-Small</label>
+                            <label for="" class="fw-bold fs-6 rounded-pill px-3 py-2 me-2 mb-2"
+                                style="background-color: #F0F0F0;">Small</label>
+                            <label for="" class="fw-bold fs-6 rounded-pill px-3 py-2 me-2 mb-2"
+                                style="background-color: #F0F0F0;">Medium</label>
+                            <label for="" class=" text-white fs-6 rounded-pill px-3 py-2 me-2 mb-2"
+                                style="background-color: #000;">Large</label>
+                            <label for="" class="fw-bold fs-6 rounded-pill px-3 py-2 me-2 mb-2"
+                                style="background-color: #F0F0F0;">X-Large</label>
+                            <label for="" class="fw-bold fs-6 rounded-pill px-3 py-2 me-2 mb-2"
+                                style="background-color: #F0F0F0;">XX-Large</label>
+                            <label for="" class="fw-bold fs-6 rounded-pill px-3 py-2 me-2 mb-2"
+                                style="background-color: #F0F0F0;">3X-Large</label>
+                            <label for="" class="fw-bold fs-6 rounded-pill px-3 py-2 me-2 mb-2"
+                                style="background-color: #F0F0F0;">4X-Large</label>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="product-categories mb-4">
+                        <div class="product-style-name d-flex align-items-center justify-content-between mb-3">
+                            <p class="mb-0 fs-5 fw-bold" style="color: #000">Dress Style</p>
+                            <i class="fa-solid fa-chevron-up" style="color: rgba(0, 0, 0, 0.6);"></i>
+                        </div>
+                        <div class="product-style-name d-flex align-items-center justify-content-between mb-3">
+                            <p class="mb-0 fw-bold" style="color: #000">Casual</p>
+                            <i class="fa-solid fa-chevron-right" style="color: rgba(0, 0, 0, 0.6);"></i>
+                        </div>
+
+                        <div class="product-style-name d-flex align-items-center justify-content-between mb-3">
+                            <p class="mb-0 fw-bold" style="color: #000">Formal</p>
+                            <i class="fa-solid fa-chevron-right" style="color: rgba(0, 0, 0, 0.6);"></i>
+                        </div>
+
+                        <div class="product-style-name d-flex align-items-center justify-content-between mb-3">
+                            <p class="mb-0 fw-bold" style="color: #000000c4">Party</p>
+                            <i class="fa-solid fa-chevron-right" style="color: rgba(0, 0, 0, 0.6);"></i>
+                        </div>
+
+                        <div class="product-style-name d-flex align-items-center justify-content-between mb-3">
+                            <p class="mb-0 fw-bold" style="color: #000000c4">Gym</p>
+                            <i class="fa-solid fa-chevron-right" style="color: rgba(0, 0, 0, 0.6);"></i>
+                        </div>
+
+
+                    </div>
+
+                    <div class="text-white text-center rounded-pill p-2 mb-4" style="background-color:#000">
+                        Add to Cart
+                    </div>
+                </div>
+                <div class="wrapper-of-this-page w-100 p-4 pt-0">
+                    <div class="product-type d-flex align-items-center justify-content-between">
+                        <div class="product-type-name fw-bold fs-sm-1 fs-4">
+                            Casual
+                        </div>
+                        <div class="product-list-num   d-flex align-items-center justify-content-center fw-bold">
+                            <p class="show me-3  p-1 d-flex align-items-center justify-content-between mt-md-3 mt-2"
+                                style="color: #0f0f0fc0; font-size: 16px;">Showing 1-10 of 100 Products
+                                <span class="rounded-pill ms-1 d-md-none d-inline px-sm-3  py-2 text-center"
+                                    style="background-color: #F0F0F0;"><i class="fas fa-sliders-h"></i></span>
+                            </p>
+                            <p class="d-none d-md-block  mt-3 " style="color: #0f0f0fc0;">Sort by: <span
+                                    class="text-dark">Most popular <i
+                                        class="fa-solid fa-chevron-down fs-6 ms-1"></i></span> </p>
+
+                        </div>
+                    </div>
+                    <div class="products">
+                        <!--  1st product -->
+                       
+                        <div class="product">
+                            <div class="product-photo p-3 rounded my-3">
+                                <img src="img/product-1.png" class="w-100">
+                            </div>
+                            <div class="product-name fw-bold py-1">
+                                T-SHIRT WITH TAPE DETAILS
+                            </div>
+                            <div class="product-rating py-1">
+                                <div class="div">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star-half text-warning"></i>
+                                    <span class="fw-bold">4.5/<span class="fw-bold text-secondary">5</span> </span>
+                                </div>
+                            </div>
+                            <div class="product-price py-1">
+                                <p class="fw-bold fs-4">$120</p>
+                            </div>
+                        </div>
+
+                        <!--  2st product -->
+                        <div class="product">
+                            <div class="product-photo p-3 rounded my-3">
+                                <img src="img/product-2.png" class="w-100">
+                            </div>
+                            <div class="product-name fw-bold py-1">
+                                T-SHIRT WITH TAPE DETAILS
+                            </div>
+                            <div class="product-rating py-1">
+                                <div class="div">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star-half text-warning"></i>
+                                    <span class="fw-bold">4.5/<span class="fw-bold text-secondary">5</span> </span>
+                                </div>
+                            </div>
+                            <div class="product-price py-1">
+                                <p class="fw-bold fs-4 d-inline">$120</p>
+                                <span class="discount d-inline align-items-center">
+                                    <span class="discount-amount  fs-3 px-2 fw-bold py-1" style="color:#9A9A9A;">
+                                        $260
+                                    </span>
+                                    <span class="disount-percentage text-danger px-3 py-1 text-center rounded-pill"
+                                        style="background-color:pink">
+                                        -10%
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!--  3st product -->
+                        <div class="product">
+                            <div class="product-photo p-3 rounded my-3">
+                                <img src="img/product-3.png" class="w-100">
+                            </div>
+                            <div class="product-name fw-bold py-1">
+                                T-SHIRT WITH TAPE DETAILS
+                            </div>
+                            <div class="product-rating py-1">
+                                <div class="div">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star-half text-warning"></i>
+                                    <span class="fw-bold">4.5/<span class="fw-bold text-secondary">5</span> </span>
+                                </div>
+                            </div>
+                            <div class="product-price py-1">
+                                <p class="fw-bold fs-4">$120</p>
+                            </div>
+                        </div>
+
+                        <!--  4st product -->
+                        <div class="product">
+                            <div class="product-photo p-3 rounded my-3">
+                                <img src="img/product-4.png" class="w-100">
+                            </div>
+                            <div class="product-name fw-bold py-1">
+                                T-SHIRT WITH TAPE DETAILS
+                            </div>
+                            <div class="product-rating py-1">
+                                <div class="div">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star-half text-warning"></i>
+                                    <span class="fw-bold">4.5/<span class="fw-bold text-secondary">5</span> </span>
+                                </div>
+                            </div>
+                            <div class="product-price py-1">
+                                <p class="fw-bold  fs-4 d-inline me-1">$120</p>
+                                <span class="discount d-inline align-items-center">
+                                    <span class="discount-amount  fs-3 px-2 fw-bold py-1" style="color:#9A9A9A;">
+                                        $160
+                                    </span>
+                                    <span class="disount-percentage text-danger px-3 py-1 text-center rounded-pill"
+                                        style="background-color:pink">
+                                        -30%
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!--  5th product -->
+                        <div class="product">
+                            <div class="product-photo p-3 rounded my-3">
+                                <img src="img/p-suggest-1.png" class="w-100">
+                            </div>
+                            <div class="product-name fw-bold py-1">
+                                T-SHIRT WITH TAPE DETAILS
+                            </div>
+                            <div class="product-rating py-1">
+                                <div class="div">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star-half text-warning"></i>
+                                    <span class="fw-bold">4.5/<span class="fw-bold text-secondary">5</span> </span>
+                                </div>
+                            </div>
+                            <div class="product-price py-1">
+                                <p class="fw-bold  fs-4 d-inline me-1">$120</p>
+                                <span class="discount d-inline align-items-center">
+                                    <span class="discount-amount  fs-3 px-2 fw-bold py-1" style="color:#9A9A9A;">
+                                        $160
+                                    </span>
+                                    <span class="disount-percentage text-danger px-3 py-1 text-center rounded-pill"
+                                        style="background-color:pink">
+                                        -30%
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <!--  4st product -->
+                        <div class="product">
+                            <div class="product-photo p-3 rounded my-3">
+                                <img src="img/p-suggest-2.png" class="w-100">
+                            </div>
+                            <div class="product-name fw-bold py-1">
+                                T-SHIRT WITH TAPE DETAILS
+                            </div>
+                            <div class="product-rating py-1">
+                                <div class="div">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star-half text-warning"></i>
+                                    <span class="fw-bold">4.5/<span class="fw-bold text-secondary">5</span> </span>
+                                </div>
+                            </div>
+                            <div class="product-price py-1">
+                                <p class="fw-bold  fs-4 d-inline me-1">$120</p>
+                                <span class="discount d-inline align-items-center">
+                                    <span class="discount-amount  fs-3 px-2 fw-bold py-1" style="color:#9A9A9A;">
+                                        $160
+                                    </span>
+                                    <span class="disount-percentage text-danger px-3 py-1 text-center rounded-pill"
+                                        style="background-color:pink">
+                                        -30%
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <!--  4st product -->
+                        <div class="product">
+                            <div class="product-photo p-3 rounded my-3">
+                                <img src="img/p-suggest-3.png" class="w-100">
+                            </div>
+                            <div class="product-name fw-bold py-1">
+                                T-SHIRT WITH TAPE DETAILS
+                            </div>
+                            <div class="product-rating py-1">
+                                <div class="div">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star-half text-warning"></i>
+                                    <span class="fw-bold">4.5/<span class="fw-bold text-secondary">5</span> </span>
+                                </div>
+                            </div>
+                            <div class="product-price py-1">
+                                <p class="fw-bold  fs-4 d-inline me-1">$120</p>
+                                <span class="discount d-inline align-items-center">
+                                    <span class="discount-amount  fs-3 px-2 fw-bold py-1" style="color:#9A9A9A;">
+                                        $160
+                                    </span>
+                                    <span class="disount-percentage text-danger px-3 py-1 text-center rounded-pill"
+                                        style="background-color:pink">
+                                        -30%
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <!--  4st product -->
+                        <div class="product">
+                            <div class="product-photo p-3 rounded my-3">
+                                <img src="img/p-suggest-4.png" class="w-100">
+                            </div>
+                            <div class="product-name fw-bold py-1">
+                                T-SHIRT WITH TAPE DETAILS
+                            </div>
+                            <div class="product-rating py-1">
+                                <div class="div">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star-half text-warning"></i>
+                                    <span class="fw-bold">4.5/<span class="fw-bold text-secondary">5</span> </span>
+                                </div>
+                            </div>
+                            <div class="product-price py-1">
+                                <p class="fw-bold  fs-4 d-inline me-1">$120</p>
+                                <span class="discount d-inline align-items-center">
+                                    <span class="discount-amount  fs-3 px-2 fw-bold py-1" style="color:#9A9A9A;">
+                                        $160
+                                    </span>
+                                    <span class="disount-percentage text-danger px-3 py-1 text-center rounded-pill"
+                                        style="background-color:pink">
+                                        -30%
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <!--  4st product -->
+                        <div class="product">
+                            <div class="product-photo p-3 rounded my-3">
+                                <img src="img/top-selling-3.png" class="w-100">
+                            </div>
+                            <div class="product-name fw-bold py-1">
+                                T-SHIRT WITH TAPE DETAILS
+                            </div>
+                            <div class="product-rating py-1">
+                                <div class="div">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star-half text-warning"></i>
+                                    <span class="fw-bold">4.5/<span class="fw-bold text-secondary">5</span> </span>
+                                </div>
+                            </div>
+                            <div class="product-price py-1">
+                                <p class="fw-bold  fs-4 d-inline me-1">$120</p>
+                                <span class="discount d-inline align-items-center">
+                                    <span class="discount-amount  fs-3 px-2 fw-bold py-1" style="color:#9A9A9A;">
+                                        $160
+                                    </span>
+                                    <span class="disount-percentage text-danger px-3 py-1 text-center rounded-pill"
+                                        style="background-color:pink">
+                                        -30%
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
         <section class="footer  p-5">
             <div class="offers-window container rounded-5 d-lg-flex align-items-center justify-content-between p-5  ">
                 <div class="offer-title">
@@ -61,14 +497,17 @@
                     </h1>
                 </div>
                 <div class="offer-btns">
-                    <button class="p-md-3 p-2 px-4 rounded-pill text-secondary w-100"><i class="fa-solid fa-envelope"></i> Enter your email address</button>
-                    <button class="p-md-3 p-2 px-4 rounded-pill fw-bold text-dark w-100">Subscribe to Newsletters</button>
+                    <button class="p-md-3 p-2 px-4 rounded-pill text-secondary w-100"><i
+                            class="fa-solid fa-envelope"></i> Enter your email address</button>
+                    <button class="p-md-3 p-2 px-4 rounded-pill fw-bold text-dark w-100">Subscribe to
+                        Newsletters</button>
                 </div>
             </div>
             <div class="container footer-data mb-5 ">
                 <div class="brand-detail">
                     <h1 class="fw-bold">SHOP.CO</h1>
-                    <p class="my-4 text-secondary">We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+                    <p class="my-4 text-secondary">We have clothes that suits your style and which you’re proud to wear.
+                        From women to men.</p>
                     <div class="brand-proiles-links">
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-facebook-f bg-dark text-white"></i>
@@ -104,7 +543,7 @@
                     <a href="" class="text-secondary fw-bold">How to - Blog</a>
                     <a href="" class="text-secondary fw-bold">Youtube Playlists</a>
                 </div>
-                
+
 
             </div>
             <hr>
@@ -118,14 +557,21 @@
                     <img src="img/payment-5.png" alt="">
                 </div>
             </div>
-         </section>
-         <!-- footer section ends--------- -->
-          <!-- Product Detail Page  ends -->
-</section>
+        </section>
+        <!-- footer section ends--------- -->
+        <!-- Product Detail Page  ends -->
+    </section>
 
 </body>
+
+<!-- Include noUiSlider CSS and JS -->
+<script src="price-range.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.js"></script>
+
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
     crossorigin="anonymous"></script>
+
 </html>

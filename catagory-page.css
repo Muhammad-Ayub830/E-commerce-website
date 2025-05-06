@@ -1,133 +1,246 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none !important;
     list-style: none !important;
 }
-#close-btn{
+
+#close-btn {
     cursor: pointer;
 }
+
 /* general css for whole document */
-nav ul li a{
+nav ul li a {
     font-weight: bold;
     color: black;
     font-size: 18px;
     margin: 10px 20px !important;
 }
-nav ul li{
+
+nav ul li {
     display: inline;
 }
-.search-block{
+
+.search-block {
     background-color: #F0F0F0;
-    padding:10px 25px;
+    padding: 10px 25px;
     border-radius: 45px;
-    width: 400px
+    width: 300px
 }
-.search-block input{
+
+.search-block input {
     background-color: transparent;
     border: none;
     outline: none;
     margin: 0 10px;
 }
-.pop-ups i{
+
+.pop-ups i {
     padding: 10px;
     font-size: 20px;
 }
+
 @media screen and (max-width:1200px) {
-    #bars{
+    #bars {
         display: inline-block !important;
         margin-right: 20px;
         cursor: pointer;
     }
-    ul{
+
+    ul {
         position: absolute;
         width: 100%;
         height: 0px;
-        top: 100% ;
+        top: 100%;
         left: 0;
         text-align: center;
         overflow: hidden;
         transition: .5s;
         background-color: #F0F0F0;
     }
-    nav ul li{
+
+    nav ul li {
         display: block;
         padding: 5px;
     }
 }
+
 @media screen and (max-width:808px) {
-    #input{
+    #input {
         display: block !important;
         margin: auto;
         cursor: pointer;
     }
-    .search-block{
+
+    .search-block {
         width: 0px;
-        background:transparent;
+        background: transparent;
     }
-    .search-block input{
+
+    .search-block input {
         display: none;
     }
-   .pop-ups{
-    padding: 0 !important;
-   }
-   .search-block i{
-    font-size: 20px;
-    cursor: pointer;
-   }
+
+    .pop-ups {
+        padding: 0 !important;
+    }
+
+    .search-block i {
+        font-size: 20px;
+        cursor: pointer;
+    }
 }
+
 /* nav section ended--------------------------------- */
-.footer{
+.filter-window {
+    height: fit-content;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.product-photo {
+    background-color: #F0EEED;
+}
+
+.discount-amount {
+    text-decoration-line: line-through !important;
+
+}
+
+.link-to-repective-page p {
+    cursor: pointer;
+}
+
+.equalizer {
+    display: block;
+    color: rgba(0, 0, 0, 0.4);
+    transform: rotate(90deg);
+}
+
+.product-colors button {
+    border: 1px solid #F0EEED;
+}
+
+@media screen and (max-width:500px) {
+    .product-list-num .show {
+        font-size: 14px !important;
+        margin-top: 15px !important;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .product-list-num .show {
+        font-size: 12px !important;
+    }
+}
+
+/* price handler */
+.price-range-filter {
+    width: 100%;
+    max-width: 500px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#price-slider {
+    margin: 30px 0 !important;
+    height: 6px;
+}
+
+.price-display {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.noUi-connect {
+    background: #000 !important;
+    height: 6px !important;
+}
+
+.noUi-handle {
+    background: #000 !important;
+    border-radius: 50% !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.noUi-handle:before,
+.noUi-handle:after {
+    display: none !important;
+}
+
+/* prodcuts section ended------- */
+.footer {
     background-color: #F0F0F0;
     margin-top: 200px;
 }
-.offers-window{
+
+.offers-window {
     background-color: #000000;
     margin-top: -150px;
 }
-.offer-title h1{
+
+.offer-title h1 {
     font-size: 60px;
 }
-.offer-btns{
+
+.offer-btns {
     flex-basis: 30%;
 }
-.offer-btns button{
+
+.offer-btns button {
     display: block;
     border: 0;
     outline: 0;
     margin-bottom: 10px;
     width: 370px;
 }
-.footer-data{
+
+.footer-data {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     align-items: center;
     justify-content: center;
     gap: 20px;
     margin-top: 100px;
 }
-.company a{
+
+.company a {
     display: block;
     margin: 10px 0;
 }
-.brand-proiles-links i{
+
+.brand-proiles-links i {
     border-radius: 50%;
     font-size: 20px;
     border: 1px solid grey;
     padding: 10px;
 }
-.tags img{
+
+.tags img {
     cursor: pointer;
 }
+
 @media screen and (max-width:700px) {
-    .offer-title h1{
+    .offer-title h1 {
         font-size: 30px !important;
-        
+
     }
-    .offer-btns button{
+
+    .offer-btns button {
         font-size: 10px;
     }
 }
+
 /* footer section ends */
-                              /* Product detail section styling ends */
+/* Product detail section styling ends */

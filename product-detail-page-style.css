@@ -26,7 +26,7 @@ nav ul li {
     background-color: #F0F0F0;
     padding: 10px 25px;
     border-radius: 45px;
-    width: 400px
+    width: 300px
 }
 
 .search-block input {
@@ -264,6 +264,10 @@ nav ul li {
 
     .offer-btns button {
         font-size: 10px;
+    }
+
+    .offers-window {
+        width: 100%;
     }
 }
 
