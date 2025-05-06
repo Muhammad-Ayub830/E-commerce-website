@@ -1,197 +1,271 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none !important;
     list-style: none !important;
 }
-#close-btn{
+
+#close-btn {
     cursor: pointer;
 }
+
 /* general css for whole document */
-nav ul li a{
+nav ul li a {
     font-weight: bold;
     color: black;
     font-size: 18px;
     margin: 10px 20px !important;
 }
-nav ul li{
+
+nav ul li {
     display: inline;
 }
-.search-block{
+
+.search-block {
     background-color: #F0F0F0;
-    padding:10px 25px;
+    padding: 10px 25px;
     border-radius: 45px;
     width: 400px
 }
-.search-block input{
+
+.search-block input {
     background-color: transparent;
     border: none;
     outline: none;
     margin: 0 10px;
 }
-.pop-ups i{
+
+.pop-ups i {
     padding: 10px;
     font-size: 20px;
 }
+
 @media screen and (max-width:1200px) {
-    #bars{
+    #bars {
         display: inline-block !important;
         margin-right: 20px;
         cursor: pointer;
     }
-    ul{
+
+    ul {
         position: absolute;
         width: 100%;
         height: 0px;
-        top: 100% ;
+        top: 100%;
         left: 0;
         text-align: center;
         overflow: hidden;
         transition: .5s;
         background-color: #F0F0F0;
     }
-    nav ul li{
+
+    nav ul li {
         display: block;
         padding: 5px;
     }
 }
+
 @media screen and (max-width:808px) {
-    #input{
+    #input {
         display: block !important;
         margin: auto;
         cursor: pointer;
     }
-    .search-block{
+
+    .search-block {
         width: 0px;
-        background:transparent;
+        background: transparent;
     }
-    .search-block input{
+
+    .search-block input {
         display: none;
     }
-   .pop-ups{
-    padding: 0 !important;
-   }
-   .search-block i{
-    font-size: 20px;
-    cursor: pointer;
-   }
+
+    .pop-ups {
+        padding: 0 !important;
+    }
+
+    .search-block i {
+        font-size: 20px;
+        cursor: pointer;
+    }
 }
+
 /* nav section ended--------------------------------- */
-.product-slides,.product-about{
+.product-slides,
+.product-about {
     flex-basis: 48%;
     padding: 20px;
 }
-.img1{
+
+.img1 {
     width: 152px;
     height: 168px;
     margin-bottom: 10px;
     cursor: pointer;
 }
-.img2{
-    width:444px;
+
+.img2 {
+    width: 444px;
     height: 530px;
     cursor: pointer;
 }
-.color-options label{
+
+.color-options label {
     cursor: pointer;
 }
-.active-color{
+
+.active-color {
     background-color: #000000;
     color: #F0EEED;
     font-weight: 300;
     cursor: pointer;
 }
-.add-to-cart{
+
+.add-to-cart {
     cursor: pointer;
 }
+
 .add-to-cart-btn {
     width: 100%;
 }
+
 @media screen and (max-width:768px) {
-    .img1{
+    .img1 {
         width: 100%;
         height: 168px;
         margin: 10px;
-    } 
-    .img2{
-        width:100%;
+    }
+
+    .img2 {
+        width: 100%;
         height: 530px;
     }
 }
+
 /* displayed product section ends */
-.suggested-products{
+.customer-reviews {
     margin-bottom: 100px;
 }
-.new-arrivals{
-    margin-bottom: 60px ;
-}
-.products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(295px,1fr));
-    gap: 20px;
-}
-.product{
+
+.review-setting-btns span {
     cursor: pointer;
 }
-.product-photo{
+
+.reviews-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .reviews-cards {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 0px;
+
+    }
+
+    .reviews-cards .card {
+        width: 100%;
+        padding: 20px !important;
+        margin-bottom: 10px;
+    }
+}
+
+/* customer reviews section ends---------------- */
+.suggested-products {
+    margin-bottom: 100px;
+}
+
+.new-arrivals {
+    margin-bottom: 60px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    cursor: pointer;
+}
+
+.product-photo {
     background-color: #F0EEED;
 }
-.discount-amount{
+
+.discount-amount {
     text-decoration-line: line-through !important;
 
 }
+
 /* suggested product section ends section ends--------------- */
-.footer{
+.footer {
     background-color: #F0F0F0;
     margin-top: 200px;
 }
-.offers-window{
+
+.offers-window {
     background-color: #000000;
     margin-top: -150px;
 }
-.offer-title h1{
+
+.offer-title h1 {
     font-size: 60px;
 }
-.offer-btns{
+
+.offer-btns {
     flex-basis: 30%;
 }
-.offer-btns button{
+
+.offer-btns button {
     display: block;
     border: 0;
     outline: 0;
     margin-bottom: 10px;
     width: 370px;
 }
-.footer-data{
+
+.footer-data {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     align-items: center;
     justify-content: center;
     gap: 20px;
     margin-top: 100px;
 }
-.company a{
+
+.company a {
     display: block;
     margin: 10px 0;
 }
-.brand-proiles-links i{
+
+.brand-proiles-links i {
     border-radius: 50%;
     font-size: 20px;
     border: 1px solid grey;
     padding: 10px;
 }
-.tags img{
+
+.tags img {
     cursor: pointer;
 }
+
 @media screen and (max-width:700px) {
-    .offer-title h1{
+    .offer-title h1 {
         font-size: 30px !important;
-        
+
     }
-    .offer-btns button{
+
+    .offer-btns button {
         font-size: 10px;
     }
 }
+
 /* footer section ends */
-                              /* Product detail section styling ends */
+/* Product detail section styling ends */
