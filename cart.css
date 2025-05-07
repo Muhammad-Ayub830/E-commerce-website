@@ -78,6 +78,18 @@ nav ul li{
    }
 }
 /* nav section ended--------------------------------- */
+.item-description{
+    padding: 5px;
+    font-weight: bold;
+}
+.item-description p{
+    margin-bottom: 3px !important;
+}
+.order-summary{
+    min-width: 505px;
+    height: fit-content !important;
+}
+/* cart section ended-------- */
 .footer{
     background-color: #F0F0F0;
     margin-top: 200px;

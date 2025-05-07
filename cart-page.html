@@ -14,9 +14,9 @@
 </head>
 
 <body>
-<section class="wrapper">
-         <!-- front page begins -->
-         <section class="anouncement bg-dark " id="anouncement-section">
+    <section class="wrapper">
+        <!-- front page begins -->
+        <section class="anouncement bg-dark " id="anouncement-section">
             <div class="container text-center text-white p-2  d-flex align-items-center justify-content-between">
                 <div></div>
                 <p class="d-inline-block mb-0 ">Sign up and get 20% off to your first order . <a href=""
@@ -34,8 +34,8 @@
                     <ul class="mb-0" id="list">
                         <input type="text" id="input" placeholder="Search for products..."
                             style="display: none; background-color: #F0F0F0;border: 1px solid #333;outline: none; padding:10px 25px;border-radius: 45px; width: 300px">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="">On Sale <i class="fa-solid fa-caret-down"></i></a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">On Sale <i class="fa-solid fa-caret-down"></i></a></li>
                         <li><a href="">New Arrivals</a></li>
                         <li><a href="category-page.html">Catagory</a></li>
                     </ul>
@@ -53,6 +53,125 @@
             </nav>
         </section>
         <!-- nav section ended----------------------- -->
+        <section class="cart container">
+            <nav style="--bs-breadcrumb-divider: '>';" class="container mt-3" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#" class="text-secondary fw-bold">Home</a></li>
+                    <li class="breadcrumb-item active fw-bold" aria-current="page">Cart</li>
+                </ol>
+            </nav>
+            <div class="section-title">
+                <p class=" fw-bold fs-1">Your cart</p>
+            </div>
+            <div class="carted-items-and-order-summary  d-xl-flex  justify-content-between gap-2">
+                <div class="carted-items card p-4 w-100 rounded-4 ">
+                    <div class="item mb-1 d-flex align-items-center justify-content-between">
+                        <div class="item-detail d-flex">
+                            <div class="item-img" style="height: 124px;">
+                                <img src="img/p-suggest-2.png" class="w-100 h-100">
+                            </div>
+                            <div class="ms-1 item-description">
+                                <p>Gradient Graphic T-shirt </p>
+                                <p>Size: <span class="text-secondary">Large</span> </p>
+                                <p>color: <span class="text-secondary">White</span> </p>
+                                <p class="mt-2 fs-5">$145</p>
+
+                            </div>
+                        </div>
+                        <div
+                            class="item-num-and-delte-btn d-flex align-items-center justify-content-between gap-5 flex-column pe-3">
+                            <img src="img/delete-btn.png" class="ms-auto">
+                            <div class="num rounded-pill d-flex gap-3"
+                                style="background-color: #F0F0F0; padding: 5px 25px ;">
+                                <span class="">-</span><span>5</span><span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- item 2 -->
+                    <div class="item mb-1 d-flex align-items-center justify-content-between">
+                        <div class="item-detail d-flex">
+                            <div class="item-img" style="height: 124px;">
+                                <img src="img/product-3.png" class="w-100 h-100">
+                            </div>
+                            <div class="ms-1 item-description">
+                                <p>Gradient Graphic T-shirt </p>
+                                <p>Size: <span class="text-secondary">Large</span> </p>
+                                <p>color: <span class="text-secondary">White</span> </p>
+                                <p class="mt-2 fs-5">$145</p>
+
+                            </div>
+                        </div>
+                        <div
+                            class="item-num-and-delte-btn d-flex align-items-center justify-content-between gap-5 flex-column pe-3">
+                            <img src="img/delete-btn.png" class="ms-auto">
+                            <div class="num rounded-pill d-flex gap-3"
+                                style="background-color: #F0F0F0; padding: 5px 25px ;">
+                                <span class="">-</span><span>5</span><span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- item 2 -->
+                    <div class="item mb-1 d-flex align-items-center justify-content-between">
+                        <div class="item-detail d-flex">
+                            <div class="item-img" style="height: 124px;">
+                                <img src="img/product-2.png" class="w-100 h-100">
+                            </div>
+                            <div class="ms-1 item-description">
+                                <p>Gradient Graphic T-shirt </p>
+                                <p>Size: <span class="text-secondary">Large</span> </p>
+                                <p>color: <span class="text-secondary">White</span> </p>
+                                <p class="mt-2 fs-5">$145</p>
+
+                            </div>
+                        </div>
+                        <div
+                            class="item-num-and-delte-btn d-flex align-items-center justify-content-between gap-5 flex-column pe-3">
+                            <img src="img/delete-btn.png" class="ms-auto">
+                            <div class="num rounded-pill d-flex gap-3"
+                                style="background-color: #F0F0F0; padding: 5px 25px ;">
+                                <span class="">-</span><span>5</span><span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 2 -->
+
+                </div>
+                <div class="order-summary card p-4 rounded-4 mt-xl-0 mt-4">
+                    <div class="order-summary-title fw-bold fs-3 mb-3">
+                        Order Summary
+                    </div>
+                    <div class="pricing mb-2 d-flex align-items-center justify-content-between">
+                        <p class="mb-0 text-secondary fw-bold fs-5">Subtotal</p>
+                        <p class="mb-0 fw-bold fs-5">$565</p>
+                    </div>
+                    <div class="pricing mb-2 d-flex align-items-center justify-content-between">
+                        <p class="mb-0 text-secondary fw-bold fs-5">Discount-(20%)</p>
+                        <p class="mb-0 fw-bold fs-5 discount " style="color: red;">-113</p>
+                    </div>
+                    <div class="pricing mb-2 d-flex align-items-center justify-content-between">
+                        <p class="mb-0 text-secondary fw-bold fs-5">Delievery Fee</p>
+                        <p class="mb-0 fw-bold fs-5">$15</p>
+                    </div>
+                    <hr>
+                    <div class="pricing mb-5 d-flex align-items-center justify-content-between">
+                        <p class="mb-0  fw-bold fs-4">Total</p>
+                        <p class="mb-0 fw-bold fs-4">$467</p>
+                    </div>
+                    <div class=" mb-2 d-flex align-items-center gap-3 justify-content-between">
+                        <p class="mb-0 text-center   fw-bold  rounded-pill w-100"
+                            style="line-height: 48px;font-size:16px; height: 48px;  background-color: #F0F0F0;color: rgba(0, 0, 0, 0.4);">
+                           <img src="img/add-promo-icon.png" alt=""> Add promo code</p>
+                        <p class="mb-0 text-white rounded-pill px-5  "
+                            style=" line-height: 48px; font-size:16px;  height: 48px; background-color: #000;">Apply</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- cart section ended -->
         <section class="footer  p-5">
             <div class="offers-window container rounded-5 d-lg-flex align-items-center justify-content-between p-5  ">
                 <div class="offer-title">
@@ -61,14 +180,17 @@
                     </h1>
                 </div>
                 <div class="offer-btns">
-                    <button class="p-md-3 p-2 px-4 rounded-pill text-secondary w-100"><i class="fa-solid fa-envelope"></i> Enter your email address</button>
-                    <button class="p-md-3 p-2 px-4 rounded-pill fw-bold text-dark w-100">Subscribe to Newsletters</button>
+                    <button class="p-md-3 p-2 px-4 rounded-pill text-secondary w-100"><i
+                            class="fa-solid fa-envelope"></i> Enter your email address</button>
+                    <button class="p-md-3 p-2 px-4 rounded-pill fw-bold text-dark w-100">Subscribe to
+                        Newsletters</button>
                 </div>
             </div>
             <div class="container footer-data mb-5 ">
                 <div class="brand-detail">
                     <h1 class="fw-bold">SHOP.CO</h1>
-                    <p class="my-4 text-secondary">We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+                    <p class="my-4 text-secondary">We have clothes that suits your style and which you’re proud to wear.
+                        From women to men.</p>
                     <div class="brand-proiles-links">
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-facebook-f bg-dark text-white"></i>
@@ -104,7 +226,7 @@
                     <a href="" class="text-secondary fw-bold">How to - Blog</a>
                     <a href="" class="text-secondary fw-bold">Youtube Playlists</a>
                 </div>
-                
+
 
             </div>
             <hr>
@@ -118,14 +240,15 @@
                     <img src="img/payment-5.png" alt="">
                 </div>
             </div>
-         </section>
-         <!-- footer section ends--------- -->
-          <!-- Product Detail Page  ends -->
-</section>
+        </section>
+        <!-- footer section ends--------- -->
+        <!-- Product Detail Page  ends -->
+    </section>
 
 </body>
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
     crossorigin="anonymous"></script>
+
 </html>
