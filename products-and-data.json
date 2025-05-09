@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "name": "Black Sneakers",
+      "description": "Comfortable black sneakers for daily wear.",
+      "images": ["img/product-1.png", "img/product-2.png","img/product-2.png"]
+    },
+    {
+      "id": 2,
+      "name": "Blue Jacket",
+      "description": "Warm blue winter jacket.",
+      "images": ["img/product2.jpg", "img/product2-2.jpg"]
+    }
+  ]
+  

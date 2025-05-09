@@ -34,10 +34,10 @@
                     <ul class="mb-0" id="list">
                         <input type="text" id="input" placeholder="Search for products..."
                             style="display: none; background-color: #F0F0F0;border: 1px solid #333;outline: none; padding:10px 25px;border-radius: 45px; width: 300px">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="">On Sale <i class="fa-solid fa-caret-down"></i></a></li>
-                        <li><a href="">New Arrivals</a></li>
-                        <li><a href="category-page.html">Catagory</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="">On Sale </a></li>
+                            <li><a href="">New Arrivals</a></li>
+                            <li><a href="category-page.html">Category</a></li>
                     </ul>
                 </div>
                 <div class="cover d-flex">
@@ -487,6 +487,34 @@
         <!-- Product Detail Page  ends -->
     </section>
 
+    <!-- <script>
+           const products_data = {
+      1: {
+        name: "Product 1",
+        description: "This is product 1",
+        images: ["img/product-1.png", "img/product-2.png","img/product-4.png"]
+      },
+      2: {
+        name: "Product 2",
+        description: "This is product 2",
+        images: ["img/product2.jpg", "img/product2-2.jpg"]
+      }
+    };
+var     param = new URLSearchParams(window.location.search);
+  const id = param.get("id")
+  var products = document.querySelectorAll(".product-slides-img img");
+  var clicked_product = products_data[id];
+  if ( products_data[id]) {
+   console.log(products_data[1].images[0])
+    products[0].setAttribute("src",products_data[id].images[0])
+    products[1].setAttribute("src",products_data[id].images[1])
+    products[2].setAttribute("src",products_data[id].images[2])
+  } else {
+    
+  }
+
+  
+    </script> -->
 </body>
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"

@@ -9,7 +9,9 @@
 #close-btn {
     cursor: pointer;
 }
-
+a{
+    color: #000000;
+}
 /* general css for whole document */
 nav ul li a {
     font-weight: bold;
@@ -96,7 +98,13 @@ nav ul li {
 .filter-window {
     height: fit-content;
 }
-
+.display{
+    display: block !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
 .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));

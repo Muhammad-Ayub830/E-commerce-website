@@ -34,10 +34,10 @@
                     <ul class="mb-0" id="list">
                         <input type="text" id="input" placeholder="Search for products..."
                             style="display: none; background-color: #F0F0F0;border: 1px solid #333;outline: none; padding:10px 25px;border-radius: 45px; width: 300px">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="">On Sale <i class="fa-solid fa-caret-down"></i></a></li>
-                        <li><a href="">New Arrivals</a></li>
-                        <li><a href="category-page.html">Catagory</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="">On Sale </a></li>
+                            <li><a href="">New Arrivals</a></li>
+                            <li><a href="category-page.html">Category</a></li>
                     </ul>
                 </div>
                 <div class="cover d-flex">
@@ -61,10 +61,10 @@
                 </ol>
             </nav>
             <div class="product-content  d-flex ">
-                <div class="filter-window rounded-4  card p-4 py-4  d-none d-lg-block" style="width: 360px;">
+                <div class="filter-window rounded-4  card p-4 py-4  d-none d-lg-block" style="width: 360px;" id="filter-window">
                     <div class="filter-refrence d-flex align-items-center justify-content-between mb-4">
                         <p class="mb-0 fw-bold" style="color: black;">Filters</p>
-                        <i class="fas fa-sliders-h equalizer"></i>
+                        <i class="fas fa-sliders-h equalizer" id="show-filter3"></i>
                     </div>
                     <hr>
                     <div class="product-categories mb-4">
@@ -207,18 +207,19 @@
                             <p class="show me-3  p-1 d-flex align-items-center justify-content-between mt-md-3 mt-2"
                                 style="color: #0f0f0fc0; font-size: 16px;">Showing 1-10 of 100 Products
                                 <span class="rounded-pill ms-1 d-md-none d-inline px-sm-3  py-2 text-center"
-                                    style="background-color: #F0F0F0;"><i class="fas fa-sliders-h"></i></span>
+                                    style="background-color: #F0F0F0;cursor: pointer;"><i class="fas fa-sliders-h" id="show-filter"></i></span>
                             </p>
-                            <p class="d-none d-md-block  mt-3 " style="color: #0f0f0fc0;">Sort by: <span
-                                    class="text-dark">Most popular <i
-                                        class="fa-solid fa-chevron-down fs-6 ms-1"></i></span> </p>
+                            <p class="d-none d-md-block  mt-3 " style="color: #0f0f0fc0;" id="show-filter2">Sort by: <span
+                                    class="text-dark">Most popular
+                                     <i class="fa-solid fa-chevron-down fs-6 ms-1" ></i></span> </p>
 
                         </div>
                     </div>
                     <div class="products">
                         <!--  1st product -->
                        
-                        <div class="product">
+                    <a href="product-detail-page.html?id=1">
+                        <div class="product" id="product-1">
                             <div class="product-photo p-3 rounded my-3">
                                 <img src="img/product-1.png" class="w-100">
                             </div>
@@ -239,7 +240,7 @@
                                 <p class="fw-bold fs-4">$120</p>
                             </div>
                         </div>
-
+                    </a>
                         <!--  2st product -->
                         <div class="product">
                             <div class="product-photo p-3 rounded my-3">
@@ -566,6 +567,8 @@
 
 <!-- Include noUiSlider CSS and JS -->
 <script src="price-range.js"></script>
+<script src="script-for-filter-toggling.js"></script>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.js"></script>
 

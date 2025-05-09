@@ -30,4 +30,4 @@ var close_btn = document.getElementById("close-btn")
 close_btn.addEventListener('click',function(){
     anouncement_section.style.display = "none";
 })
-// code for handling the anoucncement section
+// code for handling the anoucncement section-----------
